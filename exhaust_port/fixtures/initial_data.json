@@ -1,0 +1,142 @@
+[
+  {
+    "model": "auth.User",
+    "fields": {
+      "id": 2,
+      "username": "derek",
+      "first_name": "Derek",
+      "last_name": "Jeter",
+      "is_active": 1
+    }
+  },
+  {
+    "model": "auth.User",
+    "fields": {
+      "id": 3,
+      "username": "sammy",
+      "first_name": "Sammy",
+      "last_name": "Sosa",
+      "is_active": 1
+    }
+  },
+  {
+    "model": "auth.User",
+    "fields": {
+      "id": 4,
+      "username": "josecanseco",
+      "first_name": "Jose",
+      "last_name": "Canseco",
+      "is_active": 1
+    }
+  },
+  {
+    "model": "auth.User",
+    "fields": {
+      "id": 5,
+      "username": "omarlinares",
+      "first_name": "Omar",
+      "last_name": "Linares",
+      "is_active": 1
+    }
+  },
+  {
+    "model": "auth.User",
+    "fields": {
+      "id": 6,
+      "username": "paolomaldini",
+      "first_name": "Paolo",
+      "last_name": "Maldini",
+      "is_active": 1
+    }
+  },
+  {
+    "model": "exhaust_port.XWing",
+    "fields": {
+      "id": 1,
+      "pilot": 2,
+      "cost": 100000,
+      "name": "Warp Prism",
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.XWing",
+    "fields": {
+      "id": 2,
+      "pilot": 3,
+      "cost": 90000,
+      "name": "Interceptor",
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.XWing",
+    "fields": {
+      "id": 3,
+      "pilot": 4,
+      "cost": 120000,
+      "name": "Carrier",
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 1,
+      "sector": "a1",
+      "cost": 85000,
+      "target": 1,
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 2,
+      "sector": "a1",
+      "cost": 55000,
+      "target": 1,
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 3,
+      "sector": "a2",
+      "cost": 5000,
+      "target": 2,
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 4,
+      "sector": "b2",
+      "cost": 105000,
+      "target": 2,
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 5,
+      "sector": "b1",
+      "cost": 105000,
+      "target": 3,
+      "_coordinates": "10202"
+    }
+  },
+  {
+    "model": "exhaust_port.DefenceTower",
+    "fields": {
+      "id": 5,
+      "sector": "b1",
+      "cost": 15000,
+      "target": 3,
+      "_coordinates": "10202"
+    }
+  }
+]
